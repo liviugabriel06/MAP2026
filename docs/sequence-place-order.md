@@ -1,9 +1,5 @@
 ```mermaid
 
----
-config:
-  theme: neo-dark
----
 sequenceDiagram
     autonumber
     participant C as Client
