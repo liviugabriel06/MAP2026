@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     autonumber
     participant C as Client
@@ -25,3 +27,5 @@ sequenceDiagram
     end
     deactivate S
     deactivate Ctrl
+
+```
