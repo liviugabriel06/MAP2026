@@ -1,3 +1,5 @@
+```mermaid
+
 ---
 config:
   theme: neo-dark
@@ -32,3 +34,5 @@ sequenceDiagram
     deactivate S
     Ctrl-->>C: 201 Created
     deactivate Ctrl
+
+    ```
