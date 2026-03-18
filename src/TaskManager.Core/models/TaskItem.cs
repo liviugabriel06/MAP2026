@@ -14,7 +14,7 @@ namespace TaskManager.Core.models
         public Status Status { get; protected set; }
         public Priority Priority { get; set; }
         public TaskType TaskType { get; set; }
-        public NotificationType NotiificationType { get; set; }
+        public NotificationType NotificationType { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public void Complete()

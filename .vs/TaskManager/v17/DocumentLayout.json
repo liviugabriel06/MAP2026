@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACF373F-E355-4F66-8A36-B0E0B8D5E8C6}|src\\TaskManager.Data\\TaskManager.Data.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.data\\inmemorytaskrepositpry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF373F-E355-4F66-8A36-B0E0B8D5E8C6}|src\\TaskManager.Data\\TaskManager.Data.csproj|solutionrelative:src\\taskmanager.data\\inmemorytaskrepositpry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\services\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\services\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\taskmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\taskmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\notifications\\filelognotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\notifications\\filelognotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\notifications\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\notifications\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\taskmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\taskmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\interfaces\\itasknotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\deadlinetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\src\\taskmanager.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5BA264D-B61B-4FC5-95DB-3019804A876A}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,28 +58,67 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 188,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryTaskRepositpry.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Data\\InMemoryTaskRepositpry.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Data\\InMemoryTaskRepositpry.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Data\\InMemoryTaskRepositpry.cs",
+              "RelativeToolTip": "src\\TaskManager.Data\\InMemoryTaskRepositpry.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:31:31.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Services\\TaskService.cs",
+              "RelativeToolTip": "src\\TaskManager.Core\\Services\\TaskService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:14:06.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskValidator.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Services\\TaskValidator.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Services\\TaskValidator.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Services\\TaskValidator.cs",
+              "RelativeToolTip": "src\\TaskManager.Core\\Services\\TaskValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T13:10:01.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FileLogNotifier.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
               "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
               "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T18:42:05.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EmailNotifier.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Notifications\\EmailNotifier.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\EmailNotifier.cs",
@@ -75,12 +126,11 @@
               "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\EmailNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:38:58.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T18:38:58.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ConsoleNotifier.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
@@ -88,25 +138,24 @@
               "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:35:38.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T18:35:38.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
               "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
               "RelativeToolTip": "src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T18:22:04.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ITaskNotifier.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\Interfaces\\ITaskNotifier.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Interfaces\\ITaskNotifier.cs",
@@ -118,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "RecurringTask.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\models\\RecurringTask.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\models\\RecurringTask.cs",
@@ -130,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DeadlineTask.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\models\\DeadlineTask.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\models\\DeadlineTask.cs",
@@ -142,19 +191,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\models\\TaskItem.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\models\\TaskItem.cs",
               "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\models\\TaskItem.cs",
               "RelativeToolTip": "src\\TaskManager.Core\\models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:53:55.317Z"
+              "WhenOpened": "2026-03-17T17:53:55.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\models\\Enums.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\models\\Enums.cs",
@@ -166,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TaskManager.Core.csproj",
               "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\src\\TaskManager.Core\\TaskManager.Core.csproj",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\TaskManager.Core.csproj",
@@ -176,10 +226,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-03-17T17:46:41.056Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
