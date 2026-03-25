@@ -1,0 +1,16 @@
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\bin\Debug\net9.0\TaskManager.Data.deps.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\bin\Debug\net9.0\TaskManager.Data.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\bin\Debug\net9.0\TaskManager.Data.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\bin\Debug\net9.0\TaskManager.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\bin\Debug\net9.0\TaskManager.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.csproj.AssemblyReference.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.AssemblyInfoInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.AssemblyInfo.cs
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.sourcelink.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskMana.CE20C279.Up2Date
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\refint\TaskManager.Data.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\TaskManager.Data.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Data\obj\Debug\net9.0\ref\TaskManager.Data.dll
