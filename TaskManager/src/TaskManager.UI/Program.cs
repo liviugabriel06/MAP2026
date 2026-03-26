@@ -1,16 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using TaskManager.Core.Interfaces;
+using TaskManager.Core.Models;
+using TaskManager.Core.Notifications;
+using TaskManager.Core.Services;
+using TaskManager.Data;
+
 namespace TaskManager.UI;
 
-static class Program
+internal static class Program
 {
-    /// <summary>
-    ///  The main entry point for the application.
-    /// </summary>
     [STAThread]
     static void Main()
     {
-        // To customize application configuration such as set high DPI settings or default font,
-        // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
-    }    
+
+        var repository = new SqliteTaskRepository("tasks.db");
+
+        var notifiers = new Dictionary<NotificationType, ITaskNotifier>
+        {
+            { NotificationType.Console, new ConsoleNotifier() },
+            { NotificationType.Email, new EmailNotifier() },
+            { NotificationType.FileLog, new FileLogNotifier() }
+        };
+
+        var validator = new TaskValidator();
+        var taskService = new TaskService(repository, notifiers, validator);
+
+        Application.Run(new MainForm(taskService));
+    }
 }
