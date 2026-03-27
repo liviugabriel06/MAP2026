@@ -33,7 +33,7 @@ public class MainForm : Form
             Height = 300,
             ReadOnly = true,
             SelectionMode = DataGridViewSelectionMode.FullRowSelect,
-            AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
         };
 
         // De implementat BtnAdd_Click, BtnComplete_Click, BtnDelete_Click
@@ -58,9 +58,49 @@ public class MainForm : Form
         _gridTasks.DataSource = _taskService.GetAllTasks().ToList();
     }
 
-    private void BtnAdd_Click(object? sender, EventArgs e){}
-    private void BtnComplete_Click(object? sender, EventArgs e){}
-    private void BtnDelete_Click(object? sender, EventArgs e){}
+    private void BtnAdd_Click(object? sender, EventArgs e)
+    {
+        var task = new DeadlineTask
+        {
+            Title = "Task nou generat la ora: " + DateTime.Now.ToLongTimeString(),
+            Description = "Creat din interfata grafica",
+            Priority = TaskPriority.High,
+            DueDate = DateTime.Now.AddDays(2),
+            NotificationType = NotificationType.FileLog
+        };
+
+        _taskService.AddTask(task);
+        LoadTasks();
+    }
+    private void BtnComplete_Click(object? sender, EventArgs e)
+    {
+        if (_gridTasks.CurrentRow?.DataBoundItem is TaskItem selectedTask)
+        {
+            try
+            {
+                _taskService.CompleteTask(selectedTask.Id);
+                LoadTasks();
+                MessageBox.Show("Task-ul a fost finalizat cu succes!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Eroare de finalizare!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+    }
+    private void BtnDelete_Click(object? sender, EventArgs e)
+    {
+        if (_gridTasks.CurrentRow?.DataBoundItem is TaskItem selectedTask)
+        {
+            var confirm = MessageBox.Show($"Esti sigur ca vrei sa stergi task-ul '{selectedTask.Title} ?", "Confirmare stergere", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm == DialogResult.Yes)
+            {
+                _taskService.DeleteTask(selectedTask.Id);
+                LoadTasks();
+            }
+        }
+    }
 
     
 }
