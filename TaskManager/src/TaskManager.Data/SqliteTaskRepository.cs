@@ -95,9 +95,9 @@ public class SqliteTaskRepository : ITaskRepository
         var command = connection.CreateCommand();
         command.CommandText = @"
             UPDATE Tasks SET 
-                Title = @title, Description = @desc, Status = @status, Priority = @priority, 
-                TaskType = @type, NotificationType = @notif, DueDate = @dueDate, 
-                RecurrenceInterval = @recInterval, CreatedAt = @createdAt
+                Title = @title, Description = @description, Status = @status, Priority = @priority, 
+                TaskType = @taskType, NotificationType = @notificationType, DueDate = @dueDate, 
+                RecurrenceInterval = @recurrenceInterval, CreatedAt = @createdAt
             WHERE Id = @id";
 
         command.Parameters.AddWithValue("@id", task.Id);
@@ -121,15 +121,15 @@ public class SqliteTaskRepository : ITaskRepository
     private void AddParameters(SqliteCommand command, TaskItem task)
     {
         command.Parameters.AddWithValue("@title", task.Title);
-        command.Parameters.AddWithValue("@desc", task.Description ?? string.Empty);
+        command.Parameters.AddWithValue("@description", task.Description ?? string.Empty);
         command.Parameters.AddWithValue("@status", task.Status.ToString());
         command.Parameters.AddWithValue("@priority", (int)task.Priority);
-        command.Parameters.AddWithValue("@type", task.Type.ToString());
-        command.Parameters.AddWithValue("@notif", task.NotificationType.ToString());
+        command.Parameters.AddWithValue("@taskType", task.Type.ToString());
+        command.Parameters.AddWithValue("@notificationType", task.NotificationType.ToString());
         command.Parameters.AddWithValue("@createdAt", task.CreatedAt.ToString("O")); // ISO 8601
 
         command.Parameters.AddWithValue("@dueDate", task.DueDate.HasValue ? task.DueDate.Value.ToString("O") : DBNull.Value);
-        command.Parameters.AddWithValue("@recInterval", task.RecurrenceInterval.HasValue ? task.RecurrenceInterval.Value : DBNull.Value);
+        command.Parameters.AddWithValue("@recurrenceInterval", task.RecurrenceInterval.HasValue ? task.RecurrenceInterval.Value : DBNull.Value);
     }
 
     private TaskItem MapReaderToTask(SqliteDataReader reader)
