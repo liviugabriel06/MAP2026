@@ -8,10 +8,12 @@ Acesta este un proiect dezvoltat în C# (.NET 9.0). Aplicația este un manager d
 
 ### 🎯 Obiective Implementate
 
-#### 1. Principii SOLID
-*   **Single Responsibility Principle (SRP):** Logica de validare a sarcinilor a fost extrasă într-o clasă dedicată (`TaskValidator`), separând-o de modelele de date și de serviciile de business.
-*   **Open/Closed Principle (OCP):** Implementarea sistemului de notificări folosește o interfață (`ITaskNotifier`) și un dicționar de strategii. Sistemul poate fi extins cu noi tipuri de notificări (ex: `ConsoleNotifier`, `EmailNotifier`, `FileLogNotifier`) fără a modifica clasa principală `TaskService`.
-*   **Liskov Substitution Principle (LSP):** Ierarhia de clase (`TaskItem` ca bază, derivată în `DeadlineTask` și `RecurringTask`) respectă contractele și precondițiile. De exemplu, metoda `Complete()` aruncă o excepție clară dacă sarcina este deja finalizată.
+### 1. Principii SOLID
+
+*   **Single Responsibility Principle (SRP):** Logica de validare a sarcinilor a fost extrasă într-o clasă dedicată (TaskValidator), separând-o de modelele de date și de serviciile de business.
+*   **Open/Closed Principle (OCP):** Implementarea sistemului de notificări folosește o interfață (ITaskNotifier) și un dicționar de strategii. Sistemul poate fi extins cu noi tipuri de notificări (ex: ConsoleNotifier, EmailNotifier, FileLogNotifier) fără a modifica clasa principală TaskService.
+*   **Liskov Substitution Principle (LSP):** Ierarhia de clase (TaskItem ca bază, derivată în DeadlineTask și RecurringTask) respectă contractele și precondițiile. De exemplu, metoda Complete() aruncă o excepție clară dacă sarcina este deja finalizată.
+*   **Interface Segregation Principle (ISP):** Interfața `ITaskRepository` a fost divizată în roluri specifice (`ITaskReader` și `ITaskWriter`). **De ce ReportService primește ITaskReader și nu ITaskRepository?** Deoarece clienții nu trebuie forțați să depindă de interfețe pe care nu le folosesc. `ReportService` trebuie doar să genereze rapoarte (să citească date). Dacă i-am injecta `ITaskRepository`, i-am oferi acces nejustificat la metodele de modificare (`Add`, `Delete`), crescând riscul unor ștergeri accidentale.
 
 #### 2. Design Patterns: Repository Pattern
 Accesul la date a fost decuplat de logica de business prin interfața `ITaskRepository`. Au fost create două implementări:
