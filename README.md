@@ -26,6 +26,7 @@ Acesta este un proiect dezvoltat în C# (.NET 9.0). Aplicația este un manager d
        ▲
        │
 [TaskManager.Data] (Strat Acces Date / SQLite)
+```
 
 #### 2. Design Patterns: Repository Pattern
 Accesul la date a fost decuplat de logica de business prin interfața `ITaskRepository`. Au fost create două implementări:
