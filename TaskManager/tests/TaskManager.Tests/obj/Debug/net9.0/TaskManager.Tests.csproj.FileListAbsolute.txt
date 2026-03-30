@@ -1,11 +1,5 @@
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_TaskManager.Tests
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_TaskManager.Tests
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.csproj.AssemblyReference.cache
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.AssemblyInfoInputs.cache
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.AssemblyInfo.cs
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.csproj.CoreCompileInputs.cache
-C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.sourcelink.json
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\testhost.dll
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\testhost.exe
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.dll
@@ -125,6 +119,12 @@ C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskM
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\TaskManager.Data.dll
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\TaskManager.Core.pdb
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\bin\Debug\net9.0\TaskManager.Data.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.csproj.AssemblyReference.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.AssemblyInfoInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.AssemblyInfo.cs
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.sourcelink.json
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskMana.9852C988.Up2Date
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\TaskManager.Tests.dll
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\tests\TaskManager.Tests\obj\Debug\net9.0\refint\TaskManager.Tests.dll

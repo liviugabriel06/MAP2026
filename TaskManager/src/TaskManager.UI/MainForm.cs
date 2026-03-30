@@ -11,8 +11,10 @@ namespace TaskManager.UI;
 public class MainForm : Form
 {
     private readonly TaskService _taskService;
-    private DataGridView _gridTasks;
-    private Button _btnAdd, _btnComplete, _btnDelete;
+    private DataGridView? _gridTasks;
+    private Button? _btnAdd;
+    private Button? _btnComplete;
+    private Button? _btnDelete;
 
     public MainForm(TaskService taskService)
     {

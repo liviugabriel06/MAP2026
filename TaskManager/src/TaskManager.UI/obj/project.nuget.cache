@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "B/X+4G+2Png=",
+  "dgSpecHash": "p6jaPEhzeoI=",
   "success": true,
   "projectFilePath": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\TaskManager\\src\\TaskManager.UI\\TaskManager.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liviu\\.nuget\\packages\\microsoft.data.sqlite\\10.0.5\\microsoft.data.sqlite.10.0.5.nupkg.sha512",
     "C:\\Users\\liviu\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.5\\microsoft.data.sqlite.core.10.0.5.nupkg.sha512",
+    "C:\\Users\\liviu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.5\\microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512",
+    "C:\\Users\\liviu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
     "C:\\Users\\liviu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\Users\\liviu\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
     "C:\\Users\\liviu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
