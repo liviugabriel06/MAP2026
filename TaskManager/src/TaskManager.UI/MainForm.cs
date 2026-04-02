@@ -41,7 +41,7 @@ public class MainForm : Form
 
     private void SetupUI()
     {
-        var topPanel = new Panel { DockStyle.Top, Height = 90};
+        var topPanel = new Panel { Dock = DockStyle.Top, Height = 90};
         
         topPanel.Controls.Add(new Label { Text="Titlu:", Location = new Point(10, 15), Width = 40});
         _txtTitle = new TextBox { Location = new Point(50, 12), Width = 150};
@@ -81,7 +81,7 @@ public class MainForm : Form
         var bottomPanel = new FlowLayoutPanel {Dock = DockStyle.Bottom, Height = 50, FlowDirection = FlowDirection.LeftToRight, Padding = new Padding(10)};
         
         _btnComplete = new Button {Text = "Marcheaza Done", Width = 150};
-        _btnComplete.Click += BtnComplete.Click;
+         _btnComplete.Click += BtnComplete_Click;
         bottomPanel.Controls.Add(_btnComplete);
 
         _btnDelete = new Button {Text = "Sterge Task", Width = 120, ForeColor = Color.White, BackColor = Color.IndianRed};
@@ -99,5 +99,84 @@ public class MainForm : Form
             AllowUserToAddRows = false
         };
         Controls.Add(_gridTasks);
+        Controls.Add(topPanel);
+        Controls.Add(bottomPanel);
+        _gridTasks.BringToFront();
+    }
+
+    private void LoadTasks()
+    {
+        _gridTasks!.DataSource = null;
+        _gridTasks.DataSource = _taskService.GetAllTasks().ToList();
+    }
+
+    private void BtnAdd_Click(object? sender, EventArgs e)
+    {
+        try
+        {
+            var tip = (TaskType)_cmbTaskType!.SelectedItem!;
+            TaskItem newTask;
+
+            if (tip == TaskType.Deadline)
+            {
+                newTask = new DeadlineTask {DueDate = _dtpDueDate!.Value};
+            } else if (tip == TaskType.Recurring)
+            {
+                newTask = new RecurringTask {DueDate = _dtpDueDate!.Value, RecurrenceInterval = 7};
+            }
+            else
+            {
+                newTask = new TaskItem();
+            }
+
+            newTask.Title = _txtTitle!.Text;
+            newTask.Description = _txtDescription!.Text;
+            newTask.Priority = (TaskPriority)_cmbPriority!.SelectedItem!;
+            newTask.NotificationType = (NotificationType)_cmbNotification!.SelectedItem!;
+            newTask.Status = TaskStatus.ToDo;
+
+            _taskService.AddTask(newTask);
+
+            _txtTitle.Text = "";
+            _txtDescription.Text = "";
+
+            LoadTasks();
+        }
+        catch(Exception ex)
+        {
+            MessageBox.Show(ex.ToString(), "Eroare la adăugare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(ex.Message, "Eroare validare, MessageBoxButtons.OK, MessageBoxIcon.Warning");
+        }
+    }
+
+    private void BtnComplete_Click(object? sender, EventArgs e)
+    {
+        if (_gridTasks!.SelectedRows.Count == 0)return;
+
+        var selectedTask = (TaskItem)_gridTasks.SelectedRows[0].DataBoundItem;
+        try
+        {
+            _taskService.CompleteTask(selectedTask.Id);
+            LoadTasks();
+            MessageBox.Show("Task marcat ca finalizat!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        catch(Exception ex)
+        {
+            MessageBox.Show(ex.Message, "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+    }
+
+    private void BtnDelete_Click(object? sender, EventArgs e)
+    {
+        if(_gridTasks!.SelectedRows.Count == 0)return;
+
+        var selectedTask = (TaskItem)_gridTasks.SelectedRows[0].DataBoundItem;
+        var dialogResult = MessageBox.Show($"Sigur vrei sa stergi task-ul '{selectedTask.Title}?", "Confirmare stergere", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+        if (dialogResult == DialogResult.Yes)
+        {
+            _taskService.DeleteTask(selectedTask.Id);
+            LoadTasks();
+        }
     }
 }
