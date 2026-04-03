@@ -10,3 +10,4 @@ C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskM
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Core\obj\Debug\net9.0\refint\TaskManager.Core.dll
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.pdb
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Core\obj\Debug\net9.0\ref\TaskManager.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.csproj.AssemblyReference.cache

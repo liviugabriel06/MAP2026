@@ -48,3 +48,6 @@ C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskM
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\obj\Debug\net9.0-windows\TaskManager.UI.pdb
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\obj\Debug\net9.0-windows\TaskManager.UI.genruntimeconfig.cache
 C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\obj\Debug\net9.0-windows\ref\TaskManager.UI.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\bin\Debug\net9.0-windows\BouncyCastle.Cryptography.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\bin\Debug\net9.0-windows\MailKit.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\TaskManager\src\TaskManager.UI\bin\Debug\net9.0-windows\MimeKit.dll
