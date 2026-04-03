@@ -1,108 +1,107 @@
-📝 Task Manager - WinForms & .NET 9.0 (Versiunea 2)
+# 📝 Task Manager - WinForms & .NET 9.0 (Version 2)
 
-Aplicație desktop dezvoltată în C# (.NET 9.0) pentru gestionarea sarcinilor într-o echipă mică.
-Proiectul evidențiază aplicarea practică a:
+This is a desktop application developed in C# (.NET 9.0) for managing tasks within a small team. The project highlights the practical application of:
 
-🏗 Layered Architecture
+🏗️ Layered Architecture
 🧩 Design Patterns
-📐 Principiilor SOLID
+📐 SOLID Principles
 
-👉 Versiunea 2 introduce o interfață grafică modernă și integrarea cu un server SMTP real pentru notificări.
+👉 Version 2 introduces a modern graphical user interface and integration with a real SMTP server for notifications.
 
-✨ Funcționalități Noi (v2)
-🖥 Interfață grafică completă (WinForms)
-Formular interactiv pentru:
-adăugare task-uri (titlu, descriere, tip, prioritate, deadline)
-vizualizare într-un DataGridView curat și organizat
-📧 Notificări reale prin email
-La marcarea unui task ca Done, aplicația trimite automat email folosind:
-MailKit
-SMTP (Gmail)
-🔌 Dependency Injection (IoC Container)
-Gestionarea automată a dependențelor cu:
-Microsoft.Extensions.DependencyInjection
-🏗 Arhitectura aplicației
+## ✨ New Features (v2)
 
-Aplicația folosește o arhitectură stratificată (Layered Architecture):
+### 🖥️ Complete Graphical User Interface (WinForms)
+An interactive form for:
+*   Adding tasks (title, description, type, priority, deadline)
+*   Viewing tasks in a clean and organized `DataGridView`
 
-[TaskManager.UI]        → Prezentare (WinForms + IoC)
-        │
-        ▼
-[TaskManager.Core]      → Logică business + interfețe (fără dependențe externe)
-        ▲
-        │
-[TaskManager.Data]      → Acces la date (SQLite)
+### 📧 Real Email Notifications
+When a task is marked as "Done", the application automatically sends an email using:
+*   MailKit
+*   SMTP (Gmail)
 
-📌 Observație:
-Core este centrul aplicației – definește regulile, iar UI și Data doar le implementează.
+### 🔌 Dependency Injection (IoC Container)
+Automatic dependency management with:
+*   `Microsoft.Extensions.DependencyInjection`
 
-🏛 Principii SOLID (aplicate)
-1. Single Responsibility Principle (SRP)
-Validarea este separată în TaskValidator
-TaskService doar orchestrează logica
-2. Open/Closed Principle (OCP)
-Sistemul de notificări folosește ITaskNotifier
-✔ Email-ul a fost adăugat fără modificarea TaskService
-3. Liskov Substitution Principle (LSP)
-Ierarhie:
-TaskItem
-DeadlineTask
-RecurringTask
-Implementările pot fi înlocuite fără a afecta aplicația
+## 🏗️ Application Architecture
 
-✔ SqliteTaskRepository și InMemoryTaskRepository sunt interschimbabile
+The application uses a layered architecture:
 
-4. Interface Segregation Principle (ISP)
-Interfețele sunt separate:
-ITaskReader
-ITaskWriter
+**[TaskManager.UI]** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Presentation (WinForms + IoC)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼  
+**[TaskManager.Core]** &nbsp;&nbsp;&nbsp;&nbsp;→ Business Logic + Interfaces (no external dependencies)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
+**[TaskManager.Data]** &nbsp;&nbsp;&nbsp;&nbsp;→ Data Access (SQLite)
 
-✔ ReportService folosește doar citire → fără risc de modificare accidentală
+📌 **Note:** `Core` is the application's center – it defines the rules, while `UI` and `Data` merely implement them.
 
-5. Dependency Inversion Principle (DIP)
-TaskService depinde de abstracții:
-ITaskRepository
-ITaskNotifier
+## 🏛️ SOLID Principles (Applied)
 
-✔ Toate dependențele sunt injectate prin constructor (IoC Container)
+1.  **Single Responsibility Principle (SRP)**
+    *   Validation is separated into `TaskValidator`.
+    *   `TaskService` only orchestrates the logic.
 
-💾 Baza de date & accesul la date
-🗄 SQLite (fișier local tasks.db)
-🧱 Repository Pattern
-🔧 ADO.NET (Microsoft.Data.Sqlite)
-❌ Fără ORM (conform cerințelor)
+2.  **Open/Closed Principle (OCP)**
+    *   The notification system uses `ITaskNotifier`.
+    *   ✔ Email notifications were added without modifying `TaskService`.
 
-✔ Mapare manuală din SqliteDataReader → obiecte C#
+3.  **Liskov Substitution Principle (LSP)**
+    *   Hierarchy: `TaskItem` → `DeadlineTask` / `RecurringTask`. Implementations can be swapped without affecting the application.
+    *   ✔ `SqliteTaskRepository` and `InMemoryTaskRepository` are interchangeable.
 
-🧪 Testare automată (NUnit)
+4.  **Interface Segregation Principle (ISP)**
+    *   Interfaces are segregated: `ITaskReader` and `ITaskWriter`.
+    *   ✔ `ReportService` only uses read operations, preventing accidental modifications.
 
-Proiectul include 13 teste unitare care acoperă:
+5.  **Dependency Inversion Principle (DIP)**
+    *   `TaskService` depends on abstractions: `ITaskRepository` and `ITaskNotifier`.
+    *   ✔ All dependencies are injected via the constructor using the IoC Container.
 
-✔ validarea datelor
-✔ logica serviciilor
-✔ principiul LSP
-✔ verificări pentru ISP & DIP (prin reflecție)
+## 💾 Database & Data Access
 
-⚡ Testele sunt:
+*   **🗄️ Storage:** SQLite (local `tasks.db` file)
+*   **🧱 Pattern:** Repository Pattern
+*   **🔧 Technology:** ADO.NET (`Microsoft.Data.Sqlite`)
+*   ❌ No ORM is used (as per requirements).
 
-rapide
-izolate
-bazate pe InMemoryTaskRepository
+✔ Manual mapping from `SqliteDataReader` to C# objects is performed.
 
-👉 Rulează testele:
+## 🧪 Automated Testing (NUnit)
 
+The project includes unit tests that cover:
+
+*   ✔ Data validation
+*   ✔ Service logic
+*   ✔ Liskov Substitution Principle (LSP)
+*   ✔ Checks for ISP & DIP through reflection
+
+⚡ The tests are:
+
+*   Fast
+*   Isolated
+*   Based on `InMemoryTaskRepository`
+
+👉 **Run the tests:**
+```bash
 dotnet test
-🚀 Cum rulezi proiectul
-📋 Cerințe
-.NET 9.0 SDK
-📧 Configurare email
+```
 
-În EmailNotifier.cs trebuie să adaugi:
+## 🚀 How to Run the Project
 
-adresa Gmail
-App Password generată de Google
-▶ Rulare aplicație (WinForms)
+### 📋 Requirements
+*   .NET 9.0 SDK
+
+### 📧 Email Configuration
+
+In `src/TaskManager.Core/Notifications/EmailNotifier.cs`, you must add:
+
+*   Your Gmail address
+*   A Google-generated App Password
+
+### ▶️ Running the Application (WinForms)
 
 ```bash
 dotnet run --project src/TaskManager.UI
-```
