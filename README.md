@@ -1,56 +1,94 @@
-# Task Manager - MAP (Metode Avansate de Programare)
+# 📝 Task Manager - WinForms & .NET 9.0 (Versiunea 2)
 
-Acesta este un proiect dezvoltat în C# (.NET 9.0). Aplicația este un manager de sarcini care foloseste principiile SOLID si Design Patterns.
+Acesta este un proiect dezvoltat în C# (.NET 9.0), reprezentând o aplicație robustă de gestiune a sarcinilor pentru o echipă mică. Aplicația demonstrează aplicarea practică a arhitecturii stratificate (Layered Architecture), a șabloanelor de proiectare (Design Patterns) și respectarea strictă a **Principiilor SOLID**.
+
+Versiunea 2 a proiectului aduce o interfață grafică interactivă și integrarea cu un server SMTP real pentru notificări.
 
 ---
 
-## 🚀 Laboratorul 3: Arhitectură, Baze de Date și Interfață Grafică (WinForms)
+## ✨ Funcționalități Noi (Versiunea 2)
+* **Interfață Manuală Completă:** Formular interactiv pentru adăugarea sarcinilor (titlu, descriere, tip, prioritate, dată limită) și vizualizarea lor într-un `DataGridView` curat.
+* **Notificări Reale pe Email:** La marcarea unei sarcini ca *Done*, aplicația trimite un email real utilizatorului folosind pachetul `MailKit` și protocolul SMTP de la Google.
+* **IoC Container:** Instanțierea claselor este automatizată complet folosind `Microsoft.Extensions.DependencyInjection`.
 
-### 🎯 Obiective Implementate
+---
 
-### 1. Principii SOLID
+## 🏗 Arhitectura Aplicației
 
-*   **Single Responsibility Principle (SRP):** Logica de validare a sarcinilor a fost extrasă într-o clasă dedicată (TaskValidator), separând-o de modelele de date și de serviciile de business.
-*   **Open/Closed Principle (OCP):** Implementarea sistemului de notificări folosește o interfață (ITaskNotifier) și un dicționar de strategii. Sistemul poate fi extins cu noi tipuri de notificări (ex: ConsoleNotifier, EmailNotifier, FileLogNotifier) fără a modifica clasa principală TaskService.
-*   **Liskov Substitution Principle (LSP):** Ierarhia de clase (TaskItem ca bază, derivată în DeadlineTask și RecurringTask) respectă contractele și precondițiile. De exemplu, metoda Complete() aruncă o excepție clară dacă sarcina este deja finalizată.
-*   **Interface Segregation Principle (ISP):** Interfața `ITaskRepository` a fost divizată în roluri specifice (`ITaskReader` și `ITaskWriter`). **De ce ReportService primește ITaskReader și nu ITaskRepository?** Deoarece clienții nu trebuie forțați să depindă de interfețe pe care nu le folosesc. `ReportService` trebuie doar să genereze rapoarte (să citească date). Dacă i-am injecta `ITaskRepository`, i-am oferi acces nejustificat la metodele de modificare (`Add`, `Delete`), crescând riscul unor ștergeri accidentale.
-*   **Dependency Inversion Principle (DIP):** Dependențele (`ITaskRepository`, `ITaskNotifier`) sunt injectate prin constructor (Dependency Injection). Modulele de nivel înalt (`TaskService`, `ReportService`) depind exclusiv de abstracții (interfețe din proiectul `Core`), nu de implementări concrete. Am configurat un container IoC (`Microsoft.Extensions.DependencyInjection`) în `Program.cs` pentru asamblarea automată, decuplând complet logica de business de infrastructură (SQLite).
-
-### 🏗 Diagrama de Dependențe a Arhitecturii
+Proiectul folosește o **Arhitectură Stratificată** pentru a decupla logica de business de interfață și de baza de date:
 
 ```text
-[TaskManager.UI] (Strat Prezentare + IoC Container)
+[TaskManager.UI] (Strat Prezentare + IoC Container / WinForms)
        │
        ▼
-[TaskManager.Core] (Logică Business + Interfețe)  <--- ZERO dependențe externe
+[TaskManager.Core] (Logică Business + Interfețe / Fără dependențe externe)
        ▲
        │
 [TaskManager.Data] (Strat Acces Date / SQLite)
 ```
 
-#### 2. Design Patterns: Repository Pattern
-Accesul la date a fost decuplat de logica de business prin interfața `ITaskRepository`. Au fost create două implementări:
-*   `InMemoryTaskRepository`: Folosit pentru teste unitare rapide, stocând datele într-o colecție locală.
-*   `SqliteTaskRepository`: Folosit în producție, realizează conexiunea la o bază de date reală **SQLite** (`tasks.db`). Interogările (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) sunt scrise manual folosind ADO.NET (`SqliteCommand`, `SqliteDataReader`), respectând cerința de a **nu** utiliza un ORM (precum Entity Framework).
+Notă: Proiectul Core este inima aplicației. El dictează regulile (interfețele), iar Data și UI doar le implementează.
 
-#### 3. Interfața Grafică (UI)
-*   S-a implementat o interfață desktop folosind **Windows Forms (WinForms)**.
-*   Interfața este construită programatic (din cod, fără designer vizual), afișând un `DataGridView` conectat direct la baza de date și butoane pentru adăugarea, finalizarea și ștergerea sarcinilor.
-*   UI-ul este decuplat de logică, comunicând exclusiv prin intermediul clasei `TaskService` (Dependency Injection manual la nivelul `Program.cs`).
+🏛 Decizii de Design: Principiile SOLID
+Aplicarea principiilor SOLID poate fi observată clar în codul sursă, după cum urmează:
 
-#### 4. Testare Automată (NUnit)
-Proiectul include un pachet de teste unitare scrise folosind framework-ul **NUnit**, care validează:
-*   Corectitudinea validatorului (`TaskValidator`).
-*   Respectarea LSP pentru toate derivatele clasei `TaskItem`.
-*   Apelarea corectă a notificărilor (mocking pentru OCP).
-*   Funcționarea adăugării în `InMemoryTaskRepository`.
+Single Responsibility Principle (SRP)
 
----
+Logica de validare a sarcinilor (titlu nenul, lungime maximă etc.) a fost extrasă într-o clasă dedicată (TaskValidator).
 
-## 🛠️ Cum se rulează proiectul
+Așadar, TaskService se ocupă strict de orchestrarea datelor, iar TaskValidator de validarea lor.
 
-### 1. Pornirea Aplicației (Interfața Grafică)
-Pentru a porni aplicația cu interfața WinForms și baza de date SQLite, deschide un terminal în folderul rădăcină al proiectului și rulează:
+Open/Closed Principle (OCP)
 
-```bash
+Sistemul de notificări folosește o interfață (ITaskNotifier) și un dicționar de strategii.
+
+Dovada: Pentru a adăuga trimiterea de emailuri reale în Versiunea 2, am creat/modificat doar clasa EmailNotifier, fără a modifica absolut nicio linie de cod în TaskService. Aplicația a fost deschisă pentru extindere, dar închisă pentru modificare.
+
+Liskov Substitution Principle (LSP)
+
+Avem ierarhia de sarcini (TaskItem bază, DeadlineTask, RecurringTask). Suprascrierea metodei Complete() funcționează fără să strice așteptările programului.
+
+TaskService lucrează perfect cu orice implementare a interfeței ITaskRepository, demonstrând că SqliteTaskRepository (baza de date reală) și InMemoryTaskRepository (pentru teste) pot fi interschimbate fără ca programul să crape.
+
+Interface Segregation Principle (ISP)
+
+Interfața principală a fost divizată în două roluri specifice: ITaskReader și ITaskWriter.
+
+Clasa ReportService necesită doar ITaskReader. Astfel, protejăm datele: serviciul de rapoarte nu are acces tehnic la funcțiile de modificare (Add, Delete), eliminând riscul ștergerilor accidentale.
+
+Dependency Inversion Principle (DIP)
+
+Modulele de nivel înalt (TaskService) depind doar de abstracții (ITaskRepository, ITaskNotifier).
+
+Toate dependențele sunt injectate automat prin constructor folosind un IoC Container (ServiceCollection în Program.cs), decuplând complet aplicația de implementările concrete.
+
+💾 Baza de Date & Accesul la Date
+Accesul la date respectă Repository Pattern. S-a folosit baza de date locală SQLite (fișierul tasks.db se generează automat).
+Implementarea din clasa SqliteTaskRepository realizează maparea manuală din SqliteDataReader în obiecte C#, folosind pachetul ADO.NET (Microsoft.Data.Sqlite), fără a folosi un sistem ORM (conform cerințelor).
+
+🧪 Testare Automată (NUnit)
+Proiectul include o suită de 13 teste unitare complet funcționale, care acoperă:
+
+Comportamentul validatorului.
+
+Logica din serviciul principal.
+
+Demonstrarea principiului LSP pe ierarhia de Task-uri.
+
+Demonstrarea ISP și DIP, validând prin reflexie faptul că TaskService cere explicit interfețe în constructor.
+
+Testele sunt izolate și ultra-rapide datorită folosirii InMemoryTaskRepository. Toate pot fi rulate prin comanda:
+dotnet test
+
+🚀 Cum se rulează proiectul
+1. Cerințe prealabile:
+
+.NET 9.0 SDK instalat.
+
+Pentru notificările prin Email: În fișierul EmailNotifier.cs (din TaskManager.Core), trebuie introdusă adresa de Gmail și Parola de Aplicație generată de Google.
+
+2. Rularea interfeței grafice (WinForms):
+Deschide un terminal în rădăcina proiectului și rulează:
+
+Bash
 dotnet run --project src/TaskManager.UI
