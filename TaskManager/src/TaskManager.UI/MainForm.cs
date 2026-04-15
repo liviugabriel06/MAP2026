@@ -36,7 +36,7 @@ public class MainForm : Form
         StartPosition = FormStartPosition.CenterScreen;
 
         SetupUI();
-        LoadTasks(); // de implementat
+        LoadTasks(); 
     }
 
     private void SetupUI()

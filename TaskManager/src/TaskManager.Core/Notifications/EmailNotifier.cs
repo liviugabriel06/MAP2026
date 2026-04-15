@@ -8,8 +8,8 @@ namespace TaskManager.Core.Notifications;
 public class EmailNotifier : ITaskNotifier
 {
 
-    private readonly string _emailAddress = "Trece_Emailul_Aici@gmail.com";
-    private readonly string _appPassword = "Trece_Parola_Aici";
+    private readonly string _emailAddress = "marinpreda134@gmail.com";
+    private readonly string _appPassword = "zsjsvlherdsyvzih";
     public void Notify(TaskItem task)
     {
         try
