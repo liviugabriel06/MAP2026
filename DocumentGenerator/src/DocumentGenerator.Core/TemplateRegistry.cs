@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using DocumentGenerator.Core;
 
-namespace DOcumentGenerator.Core;
+namespace DocumentGenerator.Core;
 
 public class TemplateRegistry
 {

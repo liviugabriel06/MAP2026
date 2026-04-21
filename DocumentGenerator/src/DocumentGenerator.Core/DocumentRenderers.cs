@@ -33,7 +33,7 @@ public class PlainTextRenderer : IDocumentRenderer
     public string Render(DocumentData data)
     {
         var sb = new StringBuilder();
-        sb.AppendLine("*** {data.Title.ToUpper()} ***");
+        sb.AppendLine($"*** {data.Title.ToUpper()} ***");
         sb.AppendLine($"Autor: {data.Author} | Data: {data.Date}");
         sb.AppendLine(new string('-', 30));
 

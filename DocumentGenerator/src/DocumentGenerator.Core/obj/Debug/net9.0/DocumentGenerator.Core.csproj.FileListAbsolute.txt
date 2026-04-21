@@ -1,0 +1,12 @@
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\bin\Debug\net9.0\DocumentGenerator.Core.deps.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\bin\Debug\net9.0\DocumentGenerator.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\bin\Debug\net9.0\DocumentGenerator.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.AssemblyInfoInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.AssemblyInfo.cs
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.sourcelink.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\refint\DocumentGenerator.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\DocumentGenerator.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentGenerator\src\DocumentGenerator.Core\obj\Debug\net9.0\ref\DocumentGenerator.Core.dll
