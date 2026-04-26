@@ -23,8 +23,8 @@ public class XmlParserAdapter : IDocumentParser{
         LegacyDocument legacyDoc = _legacyParser.ParseXml(xmlDoc);
 
         return new Document{
-            Title = legacyDoc.LegacyTitle;
-            Content = legacyDoc.LegacyBody;
+            Title = legacyDoc.LegacyTitle,
+            Content = legacyDoc.LegacyBody
         };
     }
 }

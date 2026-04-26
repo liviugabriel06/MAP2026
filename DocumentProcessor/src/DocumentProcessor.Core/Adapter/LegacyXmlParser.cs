@@ -1,17 +1,19 @@
 using System.Xml;
-using DOcumentProcessor.Core.Models;
+using DocumentProcessor.Core.Models;
 
-namespace DOcumentProcessor.Core.Adapter;
+namespace DocumentProcessor.Core.Adapter;
 
-public class LegacyXmlParser{
-    public LegacyXmlParser(XmlDocument xml){
-        string title = xml.SelectSingleNode("//title")?.InnerText ?? "Fara titlu";
-        string body = xml.SelectSingleNode("//body")?.InnerText ?? "Fara continut";
+public class LegacyXmlParser
+{
+public LegacyDocument ParseXml(XmlDocument xml)
+    {
+        string title = xml.SelectSingleNode("//title")?.InnerText ?? "Fără Titlu";
+        string body = xml.SelectSingleNode("//body")?.InnerText ?? "Fără Conținut";
 
-        return new LegacyDocument{
-            LegacyTitle = title;
-            LegacyBody = body;
-        }
-
+        return new LegacyDocument
+        {
+            LegacyTitle = title,
+            LegacyBody = body
+        };
     }
 }

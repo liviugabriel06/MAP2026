@@ -1,0 +1,12 @@
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.AssemblyInfoInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.AssemblyInfo.cs
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.sourcelink.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\bin\Debug\net9.0\DocumentProcessor.Core.deps.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\bin\Debug\net9.0\DocumentProcessor.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\bin\Debug\net9.0\DocumentProcessor.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\refint\DocumentProcessor.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\DocumentProcessor.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DocumentProcessor\src\DocumentProcessor.Core\obj\Debug\net9.0\ref\DocumentProcessor.Core.dll
