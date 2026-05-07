@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DrawingTool.App/1.0.0": {
+        "dependencies": {
+          "DrawingTool.Core": "1.0.0"
+        },
+        "runtime": {
+          "DrawingTool.App.dll": {}
+        }
+      },
+      "DrawingTool.Core/1.0.0": {
+        "runtime": {
+          "DrawingTool.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DrawingTool.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DrawingTool.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
