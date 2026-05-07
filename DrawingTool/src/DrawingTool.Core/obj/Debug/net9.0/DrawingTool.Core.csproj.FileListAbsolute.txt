@@ -1,0 +1,12 @@
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\bin\Debug\net9.0\DrawingTool.Core.deps.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\bin\Debug\net9.0\DrawingTool.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\bin\Debug\net9.0\DrawingTool.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.AssemblyInfoInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.AssemblyInfo.cs
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.sourcelink.json
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\refint\DrawingTool.Core.dll
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\DrawingTool.Core.pdb
+C:\Facultate\Anul 2\Semestrul 2\MAP (Metode avansatede programare)\MAP2026\DrawingTool\src\DrawingTool.Core\obj\Debug\net9.0\ref\DrawingTool.Core.dll
