@@ -3,44 +3,524 @@
   "WorkspaceRootPath": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\liviu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\converters\\progresswidthconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\converters\\progresswidthconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\musicplayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\musicplayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\observers\\statisticstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\observers\\statisticstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\observers\\playbacklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\observers\\playbacklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\observers\\autonexthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\observers\\autonexthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\changestrategycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\changestrategycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\previouscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\previouscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\nextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\nextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\pausecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\pausecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\playcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\playcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\controllers\\playbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\controllers\\playbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\clearplaylistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\clearplaylistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\movetrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\movetrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\removetrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\removetrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\addtrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\addtrackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\commands\\iplayercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\commands\\iplayercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\strategies\\smartshufflestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\strategies\\smartshufflestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\strategies\\shufflestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\strategies\\shufflestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\strategies\\repeatonestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\strategies\\repeatonestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\strategies\\sequentialstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\strategies\\sequentialstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\strategies\\iplaybackstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\strategies\\iplaybackstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\audio\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\audio\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\audio\\mp3metadatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\audio\\mp3metadatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|c:\\facultate\\anul 2\\semestrul 2\\map (metode avansatede programare)\\map2026\\musicplayer\\musicplayer\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D279D0C3-6995-4826-8AD6-2EAECDA46657}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 196,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgressWidthConverter.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Converters\\ProgressWidthConverter.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Converters\\ProgressWidthConverter.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Converters\\ProgressWidthConverter.cs",
+              "RelativeToolTip": "MusicPlayer\\Converters\\ProgressWidthConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:23:21.667Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MusicPlayer\\MainWindow.xaml",
-              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MainWindow.xaml",
-              "RelativeToolTip": "MusicPlayer\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "MusicPlayer\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-07T20:16:45.309Z",
+              "WhenOpened": "2026-05-08T19:12:38.853Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\liviu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Users\\liviu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\liviu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Users\\liviu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:47:01.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\App.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\App.xaml",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\App.xaml",
+              "RelativeToolTip": "MusicPlayer\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-08T13:44:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MusicPlayer\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:41:01.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatisticsTracker.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\StatisticsTracker.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Observers\\StatisticsTracker.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\StatisticsTracker.cs",
+              "RelativeToolTip": "MusicPlayer\\Observers\\StatisticsTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:39:13.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlaybackLogger.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\PlaybackLogger.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Observers\\PlaybackLogger.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\PlaybackLogger.cs",
+              "RelativeToolTip": "MusicPlayer\\Observers\\PlaybackLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:39:01.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoNextHandler.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\AutoNextHandler.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Observers\\AutoNextHandler.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Observers\\AutoNextHandler.cs",
+              "RelativeToolTip": "MusicPlayer\\Observers\\AutoNextHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:38:31.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangeStrategyCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\ChangeStrategyCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\ChangeStrategyCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\ChangeStrategyCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\ChangeStrategyCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:37:15.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PreviousCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PreviousCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\PreviousCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PreviousCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\PreviousCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:37:01.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NextCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\NextCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\NextCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\NextCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\NextCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:36:49.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PauseCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PauseCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\PauseCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PauseCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\PauseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:36:33.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PlayCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\PlayCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\PlayCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\PlayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:35:29.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlaybackController.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Controllers\\PlaybackController.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Controllers\\PlaybackController.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Controllers\\PlaybackController.cs",
+              "RelativeToolTip": "MusicPlayer\\Controllers\\PlaybackController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:32:55.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClearPlaylistCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\ClearPlaylistCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\ClearPlaylistCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\ClearPlaylistCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\ClearPlaylistCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:31:32.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MoveTrackCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\MoveTrackCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\MoveTrackCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\MoveTrackCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\MoveTrackCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:31:18.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RemoveTrackCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\RemoveTrackCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\RemoveTrackCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\RemoveTrackCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\RemoveTrackCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:31:06.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddTrackCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\AddTrackCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\AddTrackCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\AddTrackCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\AddTrackCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:30:54.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommandHistory.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\CommandHistory.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\CommandHistory.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\CommandHistory.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\CommandHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:30:40.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPlayerCommand.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\IPlayerCommand.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Commands\\IPlayerCommand.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Commands\\IPlayerCommand.cs",
+              "RelativeToolTip": "MusicPlayer\\Commands\\IPlayerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:30:20.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SmartShuffleStrategy.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\SmartShuffleStrategy.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Strategies\\SmartShuffleStrategy.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\SmartShuffleStrategy.cs",
+              "RelativeToolTip": "MusicPlayer\\Strategies\\SmartShuffleStrategy.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:27:45.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShuffleStrategy.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\ShuffleStrategy.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Strategies\\ShuffleStrategy.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\ShuffleStrategy.cs",
+              "RelativeToolTip": "MusicPlayer\\Strategies\\ShuffleStrategy.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:27:26.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RepeatOneStrategy.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\RepeatOneStrategy.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Strategies\\RepeatOneStrategy.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\RepeatOneStrategy.cs",
+              "RelativeToolTip": "MusicPlayer\\Strategies\\RepeatOneStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:27:13.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SequentialStrategy.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\SequentialStrategy.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Strategies\\SequentialStrategy.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\SequentialStrategy.cs",
+              "RelativeToolTip": "MusicPlayer\\Strategies\\SequentialStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:26:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPlaybackStrategy.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\IPlaybackStrategy.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Strategies\\IPlaybackStrategy.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Strategies\\IPlaybackStrategy.cs",
+              "RelativeToolTip": "MusicPlayer\\Strategies\\IPlaybackStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:26:41.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Audio\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Audio\\AudioPlayer.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Audio\\AudioPlayer.cs",
+              "RelativeToolTip": "MusicPlayer\\Audio\\AudioPlayer.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAADwv5kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:25:39.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Mp3MetadataReader.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Audio\\Mp3MetadataReader.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Audio\\Mp3MetadataReader.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Audio\\Mp3MetadataReader.cs",
+              "RelativeToolTip": "MusicPlayer\\Audio\\Mp3MetadataReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T13:23:37.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\Playlist.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Playlist.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:31:18.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Track.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\Track.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\Track.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\Track.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\Track.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:30:56.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\PlayerState.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Models\\PlayerState.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Models\\PlayerState.cs",
+              "RelativeToolTip": "MusicPlayer\\Models\\PlayerState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:30:35.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusicPlayer.csproj",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MusicPlayer.csproj",
+              "RelativeDocumentMoniker": "MusicPlayer\\MusicPlayer.csproj",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MusicPlayer.csproj",
+              "RelativeToolTip": "MusicPlayer\\MusicPlayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T20:26:54.493Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MusicPlayer\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MusicPlayer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Facultate\\Anul 2\\Semestrul 2\\MAP (Metode avansatede programare)\\MAP2026\\MusicPlayer\\MusicPlayer\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayer\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T20:16:44.724Z",
               "EditorCaption": ""

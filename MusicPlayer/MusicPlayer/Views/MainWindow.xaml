@@ -1,0 +1,590 @@
+﻿<Window x:Class="MusicPlayer.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:MusicPlayer.ViewModels"
+        xmlns:conv="clr-namespace:MusicPlayer.Converters"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        Title="Music Player" Height="600" Width="900"
+        Background="#0d0d12" Foreground="#e6edf3"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip">
+
+    <Window.DataContext>
+        <vm:MainWindowViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+
+        <SolidColorBrush x:Key="BgDeep"      Color="#0d0d12"/>
+        <SolidColorBrush x:Key="BgPanel"     Color="#0f0f18"/>
+        <SolidColorBrush x:Key="BgCard"      Color="#13131e"/>
+        <SolidColorBrush x:Key="BgItem"      Color="#16161f"/>
+        <SolidColorBrush x:Key="BgItemHover" Color="#1a1a2e"/>
+        <SolidColorBrush x:Key="Accent"      Color="#6c6bff"/>
+        <SolidColorBrush x:Key="AccentHover" Color="#5a59ee"/>
+        <SolidColorBrush x:Key="AccentGlow"  Color="#6c6bff"/>
+        <SolidColorBrush x:Key="Border"      Color="#1e1e2e"/>
+        <SolidColorBrush x:Key="TextPrimary" Color="#ffffff"/>
+        <SolidColorBrush x:Key="TextSecond"  Color="#888899"/>
+        <SolidColorBrush x:Key="TextMuted"   Color="#3a3a55"/>
+
+        <Style x:Key="InvisibleScrollBar" TargetType="ScrollBar">
+            <Setter Property="Width" Value="4"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ScrollBar">
+                        <Track Name="PART_Track" IsDirectionReversed="True">
+                            <Track.DecreaseRepeatButton>
+                                <RepeatButton Command="ScrollBar.PageUpCommand" Opacity="0"/>
+                            </Track.DecreaseRepeatButton>
+                            <Track.Thumb>
+                                <Thumb Background="#2a2a40" BorderThickness="0">
+                                    <Thumb.Template>
+                                        <ControlTemplate TargetType="Thumb">
+                                            <Border Background="#2a2a40" CornerRadius="2"/>
+                                        </ControlTemplate>
+                                    </Thumb.Template>
+                                </Thumb>
+                            </Track.Thumb>
+                            <Track.IncreaseRepeatButton>
+                                <RepeatButton Command="ScrollBar.PageDownCommand" Opacity="0"/>
+                            </Track.IncreaseRepeatButton>
+                        </Track>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SlimScrollViewer" TargetType="ScrollViewer">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ScrollViewer">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <ScrollContentPresenter x:Name="PART_ScrollContentPresenter" Grid.Column="0"/>
+
+                            <ScrollBar x:Name="PART_VerticalScrollBar" Grid.Column="1" 
+                                       Style="{StaticResource InvisibleScrollBar}"
+                                       Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}"
+                                       Value="{TemplateBinding VerticalOffset}"
+                                       Maximum="{TemplateBinding ScrollableHeight}"
+                                       ViewportSize="{TemplateBinding ViewportHeight}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TrackListItem" TargetType="ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="8,7"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="8" Margin="0,1"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#16161f"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#1a1a2e"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TrackListBox" TargetType="ListBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="ItemContainerStyle" Value="{StaticResource TrackListItem}"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBox">
+                        <ScrollViewer Style="{StaticResource SlimScrollViewer}" Focusable="False">
+                            <ItemsPresenter/>
+                        </ScrollViewer>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CtrlBtn" TargetType="Button">
+            <Setter Property="Width" Value="38"/>
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#555577"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="19">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#16161f"/>
+                                <Setter Property="Foreground" Value="#ccccee"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#1a1a2e"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PlayBtn" TargetType="Button">
+            <Setter Property="Width" Value="54"/>
+            <Setter Property="Height" Value="54"/>
+            <Setter Property="Background" Value="#6c6bff"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="27">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#6c6bff" BlurRadius="18" ShadowDepth="0" Opacity="0.5"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#5a59ee"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#4a49dd"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SmallBtn" TargetType="Button">
+            <Setter Property="Background" Value="#16161f"/>
+            <Setter Property="BorderBrush" Value="#2a2a40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="#6c6bff"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="12,6"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1a1a2e"/>
+                                <Setter Property="BorderBrush" Value="#6c6bff"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TopBtn" TargetType="Button">
+            <Setter Property="Background" Value="#16161f"/>
+            <Setter Property="BorderBrush" Value="#2a2a40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="#888899"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1a1a2e"/>
+                                <Setter Property="Foreground" Value="#ccccee"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SlimSlider" TargetType="Slider">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Slider">
+                        <Grid VerticalAlignment="Center">
+                            <Border Height="3" CornerRadius="2" Background="#1a1a2e"/>
+                            <Border Height="3" CornerRadius="2" Background="#6c6bff"
+                                    HorizontalAlignment="Left">
+                                <Border.Width>
+                                    <MultiBinding>
+                                        <MultiBinding.Converter>
+                                            <conv:ProgressWidthConverter />
+                                        </MultiBinding.Converter>
+                                        <Binding RelativeSource="{RelativeSource TemplatedParent}" Path="Value"/>
+                                        <Binding RelativeSource="{RelativeSource TemplatedParent}" Path="Maximum"/>
+                                        <Binding RelativeSource="{RelativeSource TemplatedParent}" Path="ActualWidth"/>
+                                    </MultiBinding>
+                                </Border.Width>
+                            </Border>
+                            <Track Name="PART_Track">
+                                <Track.Thumb>
+                                    <Thumb Width="12" Height="12" Cursor="Hand">
+                                        <Thumb.Template>
+                                            <ControlTemplate TargetType="Thumb">
+                                                <Ellipse Fill="White" Width="12" Height="12">
+                                                    <Ellipse.Effect>
+                                                        <DropShadowEffect Color="#6c6bff" BlurRadius="6" ShadowDepth="0" Opacity="0.6"/>
+                                                    </Ellipse.Effect>
+                                                </Ellipse>
+                                            </ControlTemplate>
+                                        </Thumb.Template>
+                                    </Thumb>
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ModeTab" TargetType="RadioButton">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#555577"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" Value="#1a1a2e"/>
+                                <Setter Property="Foreground" Value="#6c6bff"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#16161f"/>
+                                <Setter Property="Foreground" Value="#aaaacc"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <Border CornerRadius="12" Background="#0d0d12"
+            BorderBrush="#1e1e2e" BorderThickness="1">
+        <Border.Effect>
+            <DropShadowEffect Color="#000000" BlurRadius="40" ShadowDepth="8" Opacity="0.8"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="115"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="#0a0a0f"
+                    CornerRadius="12,12,0,0"
+                    BorderBrush="#1e1e2e" BorderThickness="0,0,0,1"
+                    MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+                <Grid Margin="16,0">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <TextBlock Text="♪" Foreground="#6c6bff" FontSize="16" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                        <TextBlock Text="Music Player" Foreground="#ccccee" FontSize="14" FontWeight="Medium" VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                        <Button Content="↶  Undo" Command="{Binding UndoCmd}"
+                                Style="{StaticResource TopBtn}" Margin="0,0,8,0"/>
+                        <Button Content="↷  Redo" Command="{Binding RedoCmd}"
+                                Style="{StaticResource TopBtn}" Margin="0,0,16,0"/>
+                        <Button Content="✕" Click="CloseApp_Click"
+                                Background="Transparent" Foreground="#888899" BorderThickness="0"
+                                FontSize="16" Cursor="Hand" Padding="8,2" Margin="0,0,-6,0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="#0f0f18"
+                        BorderBrush="#1e1e2e" BorderThickness="0,0,1,0">
+                    <DockPanel>
+
+                        <TextBlock DockPanel.Dock="Top" Text="LIBRĂRIE"
+                                   FontSize="10" Foreground="#333355"
+                                   Margin="18,0,0,6"/>
+
+                        <ListBox DockPanel.Dock="Top"
+                                 ItemsSource="{Binding Playlist.Tracks}"
+                                 SelectedItem="{Binding Player.CurrentTrack, Mode=OneWay}"
+                                 Style="{StaticResource TrackListBox}"
+                                 Margin="8,0" MaxHeight="220">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="34"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Border Grid.Column="0" Width="34" Height="34"
+                                                CornerRadius="6" Background="#1a1040"
+                                                Margin="0,0,8,0">
+                                            <TextBlock Text="♪" Foreground="#6c6bff"
+                                                       FontSize="14" HorizontalAlignment="Center"
+                                                       VerticalAlignment="Center"/>
+                                        </Border>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Title}"
+                                                       Foreground="#ccccee" FontSize="12"
+                                                       TextTrimming="CharacterEllipsis"/>
+                                            <TextBlock Text="{Binding Artist}"
+                                                       Foreground="#444466" FontSize="11"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                        <Button DockPanel.Dock="Top"
+                                Content="＋  Adaugă fișiere"
+                                Command="{Binding AddTrackCmd}"
+                                Style="{StaticResource SmallBtn}"
+                                Margin="12,10,12,0"/>
+
+                        <Border DockPanel.Dock="Top" Height="1" Background="#1a1a28" Margin="12,12,12,8"/>
+
+                        <StackPanel DockPanel.Dock="Top" Margin="16,0,16,8">
+                            <TextBlock Text="STATISTICI" FontSize="10" Foreground="#333355" Margin="0,0,0,8"/>
+                            <Grid Margin="0,0,0,4">
+                                <TextBlock Text="Total redate" Foreground="#555577" FontSize="11"/>
+                                <TextBlock Text="{Binding Statistics.TotalPlayed}"
+                                           Foreground="#888899" FontSize="11" HorizontalAlignment="Right"/>
+                            </Grid>
+                            <Grid Margin="0,0,0,4">
+                                <TextBlock Text="Top artist" Foreground="#555577" FontSize="11"/>
+                                <TextBlock Text="{Binding Statistics.TopArtist}"
+                                           Foreground="#888899" FontSize="11" HorizontalAlignment="Right"
+                                           TextTrimming="CharacterEllipsis" MaxWidth="80"/>
+                            </Grid>
+                            <Grid>
+                                <TextBlock Text="Skip-uri" Foreground="#555577" FontSize="11"/>
+                                <TextBlock Text="{Binding Statistics.Skips}"
+                                           Foreground="#888899" FontSize="11" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </StackPanel>
+
+                        <Grid DockPanel.Dock="Bottom"/>
+                    </DockPanel>
+                </Border>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Background="#0d0d12">
+
+                        <Grid>
+                            <Ellipse Width="300" Height="200" HorizontalAlignment="Center"
+                                     VerticalAlignment="Top" Margin="0,20,0,0" Opacity="0.07">
+                                <Ellipse.Fill>
+                                    <RadialGradientBrush>
+                                        <GradientStop Color="#6c6bff" Offset="0"/>
+                                        <GradientStop Color="Transparent" Offset="1"/>
+                                    </RadialGradientBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                                <Border Width="160" Height="160" CornerRadius="20"
+                                        HorizontalAlignment="Center" Margin="0,0,0,20">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#1a1040" Offset="0"/>
+                                            <GradientStop Color="#2a1060" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="#6c6bff" BlurRadius="30"
+                                                          ShadowDepth="0" Opacity="0.25"/>
+                                    </Border.Effect>
+                                    <Border BorderBrush="#2a2050" BorderThickness="1" CornerRadius="20">
+                                        <TextBlock Text="♪" FontSize="56" Foreground="#6c6bff"
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                   Opacity="0.9"/>
+                                    </Border>
+                                </Border>
+
+                                <TextBlock Text="{Binding Player.CurrentTrack.Title, FallbackValue='No Track'}"
+                                           FontSize="22" FontWeight="Medium" Foreground="#ffffff"
+                                           HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                                <TextBlock Text="{Binding Player.CurrentTrack.Artist, FallbackValue='Unknown Artist'}"
+                                           FontSize="13" Foreground="#555577"
+                                           HorizontalAlignment="Center" Margin="0,0,0,16"/>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Border Background="#16161f" CornerRadius="6"
+                                            Padding="10,5"
+                                            BorderBrush="#2a2a40" BorderThickness="1">
+                                        <TextBlock Foreground="#555577" FontSize="12">
+                                            <TextBlock.Style>
+                                                <Style TargetType="TextBlock">
+                                                    <Setter Property="Text" Value="➪  Sequential"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsChecked, ElementName=rbShuffle}" Value="True">
+                                                            <Setter Property="Text" Value="🔀  Shuffle"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding IsChecked, ElementName=rbSmart}" Value="True">
+                                                            <Setter Property="Text" Value="✨  Smart Shuffle"/>
+                                                        </DataTrigger>
+                                                        <DataTrigger Binding="{Binding IsChecked, ElementName=rbRepeat}" Value="True">
+                                                            <Setter Property="Text" Value="🔂  Repeat One"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </TextBlock.Style>
+                                        </TextBlock>
+                                    </Border>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Row="1" Background="#0f0f18"
+                            BorderBrush="#1e1e2e" BorderThickness="0,1,0,0"
+                            Padding="16,12" MaxHeight="130">
+                        <StackPanel>
+                            <TextBlock Text="ISTORIC" FontSize="10" Foreground="#333355" Margin="0,0,0,8"/>
+                            <ItemsControl ItemsSource="{Binding HistoryList}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="0,3">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="6"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Ellipse Grid.Column="0" Width="5" Height="5"
+                                                     Fill="#2a2a50" VerticalAlignment="Center"/>
+                                            <TextBlock Grid.Column="1" Text="{Binding Description}"
+                                                       Foreground="#444466" FontSize="12" Margin="8,0,0,0"
+                                                       TextTrimming="CharacterEllipsis"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <Border Grid.Row="2" Background="#0a0a0f"
+                    BorderBrush="#1e1e2e" BorderThickness="0,1,0,0"
+                    CornerRadius="0,0,12,12" Padding="0,10,0,0">
+                <Grid Margin="20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" Orientation="Horizontal"
+                                    VerticalAlignment="Center" Margin="0,0,20,0">
+                            <Button Command="{Binding PrevCmd}"  Style="{StaticResource CtrlBtn}" Content="⏮" Margin="0,0,4,0"/>
+                            <Button Command="{Binding PlayCmd}"  Style="{StaticResource PlayBtn}" Content="▶" Margin="0,0,4,0"/>
+                            <Button Command="{Binding PauseCmd}" Style="{StaticResource CtrlBtn}" Content="⏸" Margin="0,0,4,0"/>
+                            <Button Command="{Binding NextCmd}"  Style="{StaticResource CtrlBtn}" Content="⏭"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0,0,20,0">
+                            <Slider Minimum="0"
+                                    Maximum="{Binding Player.Duration.TotalSeconds, Mode=OneWay}"
+                                    Value="{Binding Player.Position.TotalSeconds, Mode=OneWay}"
+                                    IsMoveToPointEnabled="True"
+                                    Margin="0,0,0,5"/>
+                            <Grid>
+                                <TextBlock Text="{Binding Player.Position, StringFormat='mm\\:ss'}"
+                                           HorizontalAlignment="Left" Foreground="#444466" FontSize="11"/>
+                                <TextBlock Text="{Binding Player.Duration, StringFormat='mm\\:ss'}"
+                                           HorizontalAlignment="Right" Foreground="#444466" FontSize="11"/>
+                            </Grid>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Text="🔊" Foreground="#444466" FontSize="14"
+                                       Margin="0,0,8,0" VerticalAlignment="Center"/>
+                            <Slider Minimum="0" Maximum="1"
+                                    Value="{Binding Player.Volume}"
+                                    Width="90" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,8,0,12">
+                        <RadioButton x:Name="rbSequential" Content="Sequential"   Command="{Binding SetSequentialCmd}"
+                                     IsChecked="True" Style="{StaticResource ModeTab}" Margin="0,0,4,0"/>
+                        <RadioButton x:Name="rbShuffle" Content="Shuffle"      Command="{Binding SetShuffleCmd}"
+                                     Style="{StaticResource ModeTab}" Margin="0,0,4,0"/>
+                        <RadioButton x:Name="rbSmart" Content="Smart Shuffle" Command="{Binding SetSmartShuffleCmd}"
+                                     Style="{StaticResource ModeTab}" Margin="0,0,4,0"/>
+                        <RadioButton x:Name="rbRepeat" Content="Repeat One"   Command="{Binding SetRepeatOneCmd}"
+                                     Style="{StaticResource ModeTab}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </Border>
+</Window>

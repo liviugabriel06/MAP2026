@@ -1,0 +1,174 @@
+[2026-05-08 17:33:40] Strategy changed to: Shuffle
+[2026-05-08 17:33:41] Strategy changed to: Smart Shuffle
+[2026-05-08 17:33:42] Strategy changed to: Repeat One
+[2026-05-08 17:33:44] Strategy changed to: Sequential
+[2026-05-08 17:38:14] Strategy changed to: Repeat One
+[2026-05-08 17:39:45] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:10] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:12] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:13] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:13] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:15] Strategy changed to: Sequential
+[2026-05-08 17:40:15] Strategy changed to: Smart Shuffle
+[2026-05-08 17:40:17] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 17:40:18] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 17:40:19] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:20] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 17:40:21] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 17:40:21] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:23] Strategy changed to: Shuffle
+[2026-05-08 17:40:25] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:25] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 17:40:26] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 17:40:27] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 17:40:28] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:28] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 17:40:29] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:30] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 17:40:30] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 17:40:31] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 17:40:33] Strategy changed to: Sequential
+[2026-05-08 17:40:38] Strategy changed to: Sequential
+[2026-05-08 17:40:40] Strategy changed to: Sequential
+[2026-05-08 17:40:41] Strategy changed to: Shuffle
+[2026-05-08 17:40:41] Strategy changed to: Sequential
+[2026-05-08 17:43:07] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 21:56:56] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 21:56:59] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 21:57:00] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 22:00:42] Strategy changed to: Shuffle
+[2026-05-08 22:00:44] Strategy changed to: Sequential
+[2026-05-08 22:00:46] Strategy changed to: Smart Shuffle
+[2026-05-08 22:00:47] Strategy changed to: Repeat One
+[2026-05-08 22:00:49] Strategy changed to: Sequential
+[2026-05-08 22:00:50] Strategy changed to: Sequential
+[2026-05-08 22:00:50] Strategy changed to: Sequential
+[2026-05-08 22:00:50] Strategy changed to: Sequential
+[2026-05-08 22:01:09] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-08 22:01:12] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 22:01:15] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 22:01:22] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-08 22:01:28] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-08 22:01:49] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 18:48:35] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 18:48:45] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 18:48:51] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 18:49:59] Strategy changed to: Shuffle
+[2026-05-09 18:50:01] Strategy changed to: Smart Shuffle
+[2026-05-09 18:50:02] Strategy changed to: Repeat One
+[2026-05-09 18:50:04] Strategy changed to: Smart Shuffle
+[2026-05-09 18:50:06] Strategy changed to: Shuffle
+[2026-05-09 18:50:08] Strategy changed to: Repeat One
+[2026-05-09 18:50:09] Strategy changed to: Sequential
+[2026-05-09 18:50:11] Strategy changed to: Sequential
+[2026-05-09 18:50:12] Strategy changed to: Sequential
+[2026-05-09 18:54:59] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:03:01] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:06:40] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:06:43] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:06:44] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:06:44] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:06:45] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:06:46] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:06:50] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:06:51] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:06:51] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:06:51] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:06:52] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:18:42] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:18:45] Strategy changed to: Shuffle
+[2026-05-09 19:18:46] Strategy changed to: Shuffle
+[2026-05-09 19:18:47] Strategy changed to: Shuffle
+[2026-05-09 19:18:48] Strategy changed to: Shuffle
+[2026-05-09 19:18:48] Strategy changed to: Shuffle
+[2026-05-09 19:18:48] Strategy changed to: Shuffle
+[2026-05-09 19:18:48] Strategy changed to: Shuffle
+[2026-05-09 19:18:48] Strategy changed to: Shuffle
+[2026-05-09 19:18:49] Strategy changed to: Shuffle
+[2026-05-09 19:18:50] Strategy changed to: Smart Shuffle
+[2026-05-09 19:18:52] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:18:56] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:18:58] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:00] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:01] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:01] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:01] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:02] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:02] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:02] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:02] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:02] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:02] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:03] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:03] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:03] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:03] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:03] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:03] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:04] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:04] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:04] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:04] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:04] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:04] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:04] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:05] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:05] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:05] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:05] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:05] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:05] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:06] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:06] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:06] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:06] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:06] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:06] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:06] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:07] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:07] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:07] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:07] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:07] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:07] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:08] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:08] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:08] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:08] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:08] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:08] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:09] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:09] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:09] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:09] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:09] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:09] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:10] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:10] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:10] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:10] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:10] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:10] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:11] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:11] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:11] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:11] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:11] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:11] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:12] Track started: Mariano 〽️🌍 - Te juri ca vrei  Official Video - Mariano by Unknown Artist
+[2026-05-09 19:19:12] Track started: Lazy Ed x Mario - Balans  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:12] Track started: Tzanca Uraganu ❌ Ghita Adriano - Marimea J-Lo [video oficial] 2026 - Tzanca Uraganu by Unknown Artist
+[2026-05-09 19:19:12] Track started: Leo de la Kuweit ❌ Marinica Namol - Cine cine  Official Video - Namol Music by Unknown Artist
+[2026-05-09 19:19:12] Track started: Connect-R - Izabela  Official Video - Connect-R by Unknown Artist
+[2026-05-09 19:19:12] Track started: Lazy Ed x JO - Mor dupa tine  Official Video - Lazy Ed by Unknown Artist
+[2026-05-09 19:19:14] Track started: Bogdan DLP - Pijamale  Official Video - Bogdan DLP by Unknown Artist
+[2026-05-09 19:19:16] Strategy changed to: Sequential
+[2026-05-09 19:19:16] Strategy changed to: Sequential
+[2026-05-09 19:19:17] Strategy changed to: Sequential
+[2026-05-09 19:19:17] Strategy changed to: Sequential
+[2026-05-09 19:19:18] Strategy changed to: Sequential
+[2026-05-09 19:19:18] Strategy changed to: Sequential
+[2026-05-09 19:19:18] Strategy changed to: Sequential
+[2026-05-09 19:19:19] Strategy changed to: Sequential
+[2026-05-09 19:19:19] Strategy changed to: Sequential
+[2026-05-09 19:19:20] Strategy changed to: Sequential
